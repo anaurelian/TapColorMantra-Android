@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2016 AnAurelian. All rights reserved.
+    https://anaurelian.com
+-->
+<resources>
+    <color name="white_text">#FFFFFFFF</color>
+    <color name="text_shadow">#44000000</color>
+</resources>

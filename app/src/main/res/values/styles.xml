@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2016 AnAurelian. All rights reserved.
+    https://anaurelian.com
+-->
+<resources>
+
+    <!-- ************** -->
+    <!-- App Theme      -->
+    <!-- ************** -->
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="actionBarCorrection">0dp</item>
+    </style>
+
+    <!-- Base shadow text style -->
+    <style name="ShadowText" parent="@android:style/TextAppearance">
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">1.5</item>
+        <item name="android:textColor">@color/white_text</item>
+
+        <!-- To keep the text centered, we must take the action bar height into account, and move it down a little -->
+        <item name="android:paddingBottom">?actionBarCorrection</item>
+    </style>
+
+    <!-- Counter shadow text style -->
+    <style name="ShadowText.Counter">
+        <item name="android:typeface">monospace</item>
+        <!-- Remove the top and bottom padding left for ascenders and descenders -->
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- ************** -->
+    <!-- Settings Theme -->
+    <!-- ************** -->
+    <!-- Settings activity theme -->
+
+    <style name="AppSettingsTheme" parent="android:Theme.Light">
+        <!-- Fill the entire screen -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

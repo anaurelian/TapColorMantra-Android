@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2016 AnAurelian. All rights reserved.
+    https://anaurelian.com
+-->
+<resources>
+
+    <!-- App name -->
+    <string name="app_name">Tap Color Mantra</string>
+
+    <!-- Main activity layout -->
+    <string name="zero_counter">0</string>
+
+    <!-- Counter formats -->
+    <string name="format_comma_decimal" translatable="false">%1$,d</string>
+    <string name="format_hexadecimal" translatable="false">%1$06X</string>
+
+    <!-- Action bar -->
+    <string name="action_go_back">Go back</string>
+    <string name="action_copy">Copy color</string>
+    <string name="action_copy_label">color</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_rate">Rate app</string>
+    <string name="action_rate_url">market://details?id=com.tecdrop.milliontaps</string>
+    <string name="action_help">Help</string>
+    <string name="action_help_url">https://anaurelian.com/tapcolormantra/</string>
+
+    <!-- Feedback toast messages -->
+    <string name="toast_copied">Color code %1$s copied to clipboard.</string>
+    <string name="toast_no_cheating">Sorry, no going back from 0</string>
+    <string name="toast_first_advice">Start tapping: 0… 1… 2… 16,777,215</string>
+    <string name="toast_the_end">Done. Where can one go from here?</string>
+    <string name="toast_cheat_bad_number">Enter a number between 0 and 16,777,215</string>
+    <string name="toast_bad_url">Cannot open url %1$s</string>
+
+    <!-- Preferences screen -->
+    <string name="title_activity_settings">Settings</string>
+    <!-- Preference: Numeral system -->
+    <string name="pref_numeral_system_dialog_title">Numeral system</string>
+    <string name="pref_numeral_system_summary">How to count from 0 to 16,777,215</string>
+    <string name="pref_numeral_system_title">Numeral system</string>
+    <!-- Preference: Full screen brightness -->
+    <string name="pref_full_bright_title">Full screen brightness</string>
+    <string name="pref_full_bright_summary">View the colors in all their splendor</string>
+    <!-- Preference: Font size -->
+    <string name="pref_font_size_title">Counter text size</string>
+    <string name="pref_font_size_summary">Small or large</string>
+    <string name="pref_font_size_dialog_title">Counter text size</string>
+    <!-- Preference: Cheat mode -->
+    <string name="pref_cheat_mode_title">Cheat mode</string>
+    <string name="pref_cheat_mode_summary">Jump directly to any number (not recommended)</string>
+    <string name="pref_cheat_mode_dialog_title">Jump directly to (any number between 0 to 16,777,215)</string>
+    <!-- Preference: Elapsed time -->
+    <string name="pref_elapsed_time_title">Time spent \"color tapping\"</string>
+    <plurals name="duration_days">
+        <item quantity="one">"1 day "</item>
+        <item quantity="other">"%d days "</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">"1 hour "</item>
+        <item quantity="other">"%d hours "</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="one">"1 minute "</item>
+        <item quantity="other">"%d minutes "</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="one">1 second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+</resources>

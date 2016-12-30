@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2016 AnAurelian. All rights reserved.
+    https://anaurelian.com
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Counter text size preference list items -->
+    <string-array name="pref_font_size_entries" tools:ignore="InconsistentArrays">
+        <item>Extra Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <!-- Counter text size preference list values in sp units -->
+    <string-array name="pref_font_size_values" translatable="false" tools:ignore="InconsistentArrays">
+        <item>18</item>
+        <item>24</item>
+        <item>32</item>
+        <item>46</item>
+    </string-array>
+
+    <string-array name="pref_numeral_system_entries">
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Decimal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+
+    <string-array name="pref_numeral_system_values" translatable="false">
+        <item>2</item>
+        <item>8</item>
+        <item>10</item>
+        <item>16</item>
+    </string-array>
+</resources>

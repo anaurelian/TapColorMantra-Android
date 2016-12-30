@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2016 AnAurelian. All rights reserved.
+    https://anaurelian.com
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/pref_numeral_system_default"
+        android:dialogTitle="@string/pref_numeral_system_dialog_title"
+        android:entries="@array/pref_numeral_system_entries"
+        android:entryValues="@array/pref_numeral_system_values"
+        android:key="@string/pref_numeral_system_key"
+        android:summary="@string/pref_numeral_system_summary"
+        android:title="@string/pref_numeral_system_title" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_font_size_default"
+        android:dialogTitle="@string/pref_font_size_dialog_title"
+        android:entries="@array/pref_font_size_entries"
+        android:entryValues="@array/pref_font_size_values"
+        android:key="@string/pref_font_size_key"
+        android:summary="@string/pref_font_size_summary"
+        android:title="@string/pref_font_size_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_full_bright_default"
+        android:key="@string/pref_full_bright_key"
+        android:summary="@string/pref_full_bright_summary"
+        android:title="@string/pref_full_bright_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_cheat_mode_default"
+        android:dialogTitle="@string/pref_cheat_mode_dialog_title"
+        android:inputType="number"
+        android:key="@string/pref_cheat_mode_key"
+        android:maxLength="8"
+        android:selectAllOnFocus="true"
+        android:summary="@string/pref_cheat_mode_summary"
+        android:title="@string/pref_cheat_mode_title" />
+
+    <!-- Information style preference to show the total elapsed time -->
+    <!-- Like http://androidxref.com/4.4.4_r1/xref/packages/apps/Settings/res/xml/device_info_settings.xml#116 -->
+    <!--suppress AndroidUnknownAttribute -->
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:key="@string/pref_elapsed_time_text_key"
+        android:title="@string/pref_elapsed_time_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2016 AnAurelian. All rights reserved.
+    https://anaurelian.com
+-->
+<resources>
+
+    <!-- Preferences keys - should not be modified! -->
+    <string name="pref_counter_key" translatable="false">pref_counter</string>
+    <string name="pref_numeral_system_key">pref_numeral_system</string>
+    <string name="pref_full_bright_key" translatable="false">pref_full_bright</string>
+    <string name="pref_cheat_mode_key" translatable="false">pref_cheat_mode</string>
+    <string name="pref_font_size_key" translatable="false">pref_font_size</string>
+    <string name="pref_elapsed_time_key" translatable="false">pref_elapsed_time</string>
+    <string name="pref_elapsed_time_text_key" translatable="false">pref_elapsed_time_text</string>
+
+    <!-- Default values for preferences -->
+    <string name="pref_numeral_system_default">10</string>
+    <integer name="pref_counter_default">0</integer>
+    <string name="pref_font_size_default">24</string>
+    <bool name="pref_full_bright_default">false</bool>
+    <string name="pref_cheat_mode_default">0</string>
+
+</resources>
